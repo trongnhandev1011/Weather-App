@@ -9,9 +9,22 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        light: "url('/bg-light.png')",
+        dark: "url('/bg-dark.png')",
+      },
+      colors: {
+        gray: {
+          primary: "var(--gray-primary)",
+          strong: "var(--gray-strong)",
+        },
+        purple: {
+          primary: "var(--purple-primary)",
+          strong: "var(--purple-strong)",
+          hover: "var(--purple-hover)",
+        },
+        border: {
+          white: "var(--border-white)",
+        },
       },
     },
   },

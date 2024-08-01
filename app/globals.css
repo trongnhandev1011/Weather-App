@@ -6,6 +6,12 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --gray-primary: hsla(0, 0%, 0%, 0.4);
+  --gray-strong: hsla(0, 0%, 40%, 1);
+  --purple-primary: hsl(262, 60%, 79%);
+  --purple-strong: hsla(263, 48%, 48%, 1);
+  --purple-hover:hsl(262, 72%, 75%);
+  --border-white: hsla(0, 0%, 100%, 0.5);
 }
 
 @media (prefers-color-scheme: dark) {
