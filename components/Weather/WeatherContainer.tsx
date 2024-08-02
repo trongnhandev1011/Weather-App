@@ -21,7 +21,7 @@ export default function WeatherContainer() {
       <div className="text-sm md:text-base dark:text-white">
         Today's Weather
       </div>
-      <div className="text-purple-strong dark:text-white text-[4rem] leading-[4rem] md:text-[6.5rem] md:leading-[6.5rem] font-bold">
+      <div className="text-purple-strong dark:text-white text-[4rem] leading-[4rem] md:text-[6.5rem] md:leading-[6.5rem] font-bold mb-2">
         {convertKDegreeToCDegree(weather?.main.temp)}
       </div>
       <div className="dark:text-white hidden md:block">
