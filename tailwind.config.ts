@@ -20,6 +20,7 @@ const config: Config = {
         purple: {
           primary: "var(--purple-primary)",
           strong: "var(--purple-strong)",
+          light: "var(--purple-light)",
           hover: "var(--purple-hover)",
         },
         border: {

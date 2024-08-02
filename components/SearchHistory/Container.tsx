@@ -12,7 +12,7 @@ export default function SearchHistoryContainer() {
         height={250}
       />
       <WeatherContainer />
-      <div className="p-6 bg-purple-primary mt-6 rounded-3xl">
+      <div className="p-6 bg-purple-light mt-6 rounded-3xl">
         <div className="mb-[1.625rem]">Search History</div>
         <div className="flex flex-col gap-[1.125rem]">
           {[...Array(5)].map((item, idx) => (

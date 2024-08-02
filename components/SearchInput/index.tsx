@@ -18,7 +18,13 @@ export default function SearchInput() {
 
   return (
     <>
-      <div className="flex items-center mt-[1.25rem] gap-[1.25rem] w-full">
+      {value && (
+        <div
+          className="w-screen h-screen opacity-0 absolute top-0 left-0 z-10"
+          onClick={() => setValue("")}
+        ></div>
+      )}
+      <div className="flex items-center mt-[1.25rem] gap-[1.25rem] w-full z-50">
         <div className="flex items-center w-full bg-purple-primary px-[1.375rem] py-2 rounded-[1.25rem] relative">
           <div>
             <div className="text-[0.625rem] text-gray-primary">Country</div>
