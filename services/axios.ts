@@ -10,7 +10,3 @@ export const weatherAxiosClient = axios.create({
 export const locationsAxiosClient = axios.create({
   baseURL: "https://api.thecompaniesapi.com/v1/locations",
 });
-
-export const citiesInCountryAxiosClient = axios.create({
-  baseURL: "https://api.countrystatecity.in/v1/countries/IN/cities",
-});

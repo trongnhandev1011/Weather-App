@@ -18,3 +18,21 @@ export const getCities = async ({
     return result.data;
   } catch (err) {}
 };
+
+export const getCountries = async ({
+  page = 1,
+  size = 5,
+  searchKey = "",
+}: PaginationParams) => {
+  try {
+    const result = await locationsAxiosClient.get("/countries", {
+      params: {
+        page,
+        size,
+        search: searchKey,
+      },
+    });
+
+    return result.data;
+  } catch (err) {}
+};

@@ -2,7 +2,7 @@ import { getWeather } from "@/repositories/weather";
 import { Weather } from "@/types/weather";
 import { useQuery } from "@tanstack/react-query";
 
-export const useGetWeatherByCity = ({
+export const useGetWeatherByLocation = ({
   latitude,
   longitude,
 }: {

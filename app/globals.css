@@ -6,13 +6,25 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
   --gray-primary: hsla(0, 0%, 0%, 0.4);
   --gray-strong: hsla(0, 0%, 40%, 1);
+
   --purple-primary: hsl(262, 60%, 79%);
   --purple-strong: hsla(263, 48%, 48%, 1);
   --purple-light: hsla(0, 0%, 100%, 0.2);
+  --purple-pale: hsla(0, 0%, 100%, 0.4);
   --purple-hover:hsl(262, 72%, 75%);
+	
+  --dark-purple-primary: hsl(255, 45%, 39%);
+  --dark-purple-strong: hsla(263, 63%, 18%, 1);
+  --dark-purple-light: hsla(0, 0%, 10%, 0.3);
+  --dark-purple-bold: hsla(0, 0%, 10%, 0.5);
+  --dark-purple-hover:hsl(262, 72%, 75%);
+
   --border-white: hsla(0, 0%, 100%, 0.5);
+
+  --text-light: hsla(0, 0%, 100%, 0.5);
 }
 
 @media (prefers-color-scheme: dark) {
